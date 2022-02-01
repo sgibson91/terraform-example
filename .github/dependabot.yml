@@ -1,7 +1,12 @@
 version: 2
 updates:
-  # Maintain dependencies for terraform
+  # Maintain dependencies for terraform - gcp
   - package-ecosystem: "terraform"
-    directory: "/terraform"
+    directory: "/terraform/gcp"
+    schedule:
+      interval: "daily"
+  # Maintain dependencies for terraform - azure
+  - package-ecosystem: "terraform"
+    directory: "/terraform/azure"
     schedule:
       interval: "daily"
