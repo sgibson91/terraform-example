@@ -4,9 +4,9 @@ updates:
   - package-ecosystem: "terraform"
     directory: "/terraform/gcp"
     schedule:
-      interval: "daily"
+      interval: "weekly"
   # Maintain dependencies for terraform - azure
   - package-ecosystem: "terraform"
     directory: "/terraform/azure"
     schedule:
-      interval: "daily"
+      interval: "weekly"
