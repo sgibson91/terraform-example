@@ -5,8 +5,14 @@ updates:
     directory: "/terraform/gcp"
     schedule:
       interval: "weekly"
+      day: "monday"
+      time: "00:00"
+      timezone: "Europe/London"
   # Maintain dependencies for terraform - azure
   - package-ecosystem: "terraform"
     directory: "/terraform/azure"
     schedule:
       interval: "weekly"
+      day: "monday"
+      time: "00:00"
+      timezone: "Europe/London"
